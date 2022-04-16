@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.GetForecastButton {
+  display: block;
+  margin: 5px auto 0 auto;
+  border-radius: 25px;
+  border-color: #72cc50;
+  background-color: #72cc50;
+  color: white;
+}
+
+.CityNameInput {
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 25px;
+  border-width: 1px;
+  border: 3px 0 3px 0;
+}
+
+.ForecastWrapp {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.ForecastElem {
+  width: 300px;
+  margin: 25px auto 0 auto;
+  border: 0 25px 0 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.ForecastElem div {
+  margin-top: 10px;
+}
+
+.DeleteArrayElemButton {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  border-color: #d60c0c;
+  background-color: #d60c0c;
+  color: white;
+}
